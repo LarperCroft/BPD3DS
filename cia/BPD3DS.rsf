@@ -1,0 +1,25 @@
+BasicInfo:
+  Title: "BPD3DS"
+  CompanyCode: "00"
+  ProductCode: "CTR-P-BPD3"
+  ContentType: Application
+  Logo: Homebrew
+
+RomFs:
+  RootPath: "romfs"
+
+TitleInfo:
+  UniqueId: 0xCA002
+  Category: Application
+
+Option:
+  UseOnSD: true
+  FreeProductCode: true
+  MediaFootPadding: false
+  EnableCrypt: false
+  EnableCompress: true
+
+SystemControlInfo:
+  SaveDataSize: 0KB
+  RemasterVersion: 0
+  StackSize: 0x40000
